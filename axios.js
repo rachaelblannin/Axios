@@ -3,7 +3,7 @@ axios.get("https://reqres.in/api/users")
 .catch(err => console.error(err));
 
 const reqBody = {
-    first_name: "Morpheus",
+    name: "Morpheus",
     email: "leader@gmail.com"
 }
 
